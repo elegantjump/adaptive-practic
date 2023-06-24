@@ -1,0 +1,146 @@
+.btn-box-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+:root {
+    --main-text-color: #FFF;
+    --btn-color: #FF4E50;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: absolute;
+    top: 19px;
+    width: 100%;
+        height: 100%;
+        vertical-align: top;
+        position: absolute;
+        /* top: 0; */
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+}
+
+.header-btn-one {
+    color: #FFF;
+    text-align: center;
+    font-size: 13.986px;
+    margin-right: 5px;
+    font-family: Montserrat;
+    font-weight: 700;
+    background-color: transparent;
+}
+
+.header-btn-two {
+    /* Sign up */
+        width: 83px;
+        /* height: 17px; */
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13.9859px;
+        line-height: 17px;
+        /* identical to box height */
+        text-align: center;
+        color: #FFFFFF;
+         box-sizing: border-box;
+        background: rgba(26, 25, 21, 0.0001);
+        border: 2px solid #FFFFFF;
+        padding-bottom: 11px;
+        padding-top: 11px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-radius: 29px;
+}
+
+.container {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.hero {
+    padding-top: 170px;
+    padding-bottom: 140px;
+    background-image: url(/VectorSmartObject1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-text {
+    color: var(--main-text-color);
+        text-align: center;
+        font-size: 18px;
+        font-family: Montserrat;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+}
+
+.hero-heading {
+    color: var(--main-text-color);
+    text-align: center;
+    font-size: 30.041px;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.hero-text-two {
+    width: 247.026px;
+    color: var(--main-text-color);
+    text-align: center;
+    font-size: 18.025px;
+    margin: 0 auto;
+    font-family: Roboto;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.hero-btn {
+    width: 282px;
+    height: 43px;
+    background-color: var(--btn-color);
+    color: var(--main-text-color);
+    text-align: center;
+    font-size: 13.999px;
+    font-family: Montserrat;
+    font-weight: 700;
+    border-radius: 35px;
+}
+
+.about-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-list-item {
+    margin: 0 auto;
+}
