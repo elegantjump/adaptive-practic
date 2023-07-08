@@ -129,14 +129,14 @@ header {
     max-width: 1600px;
     padding-top: 170px;
     padding-bottom: 140px;
-    background-image: url(/VectorSmartObject1.png);
+    background-image: url(img/VectorSmartObject1.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 480px) {
     .hero {
-        background-image: url(/tablet-header.png);
+        background-image: url(img/tablet-header.png);
     }
     
 
@@ -147,7 +147,7 @@ header {
 
 @media screen and (min-width: 1024px) {
     .hero {
-        background-image: url(/desk-header.png);
+        background-image: url(img/desk-header.png);
         height: 700px;
     }
 
